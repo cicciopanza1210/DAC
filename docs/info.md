@@ -9,12 +9,12 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-four bit dac that converts digital input into analog output
+## four bit dac that converts digital input into analog output
 
 ## How to test
 
-using a prbs you can test the dynamic range, the output current and everything you want 
+##using a prbs you can test the dynamic range, the output current and everything you want 
 
 ## External hardware
 
-List external hardware used in your project (e.g. PMOD, LED display, etc), if any
+##List external hardware used in your project (e.g. PMOD, LED display, etc), if any
