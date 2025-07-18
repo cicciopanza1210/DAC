@@ -9,11 +9,11 @@ You can also include images in this folder and reference them in the markdown. E
 
 ## How it works
 
-Explain how your project works
+four bit dac that converts digital input into analog output
 
 ## How to test
 
-Explain how to use your project
+using a prbs you can test the dynamic range, the output current and everything you want 
 
 ## External hardware
 
