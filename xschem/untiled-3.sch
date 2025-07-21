@@ -115,43 +115,43 @@ N -870 -430 -840 -430 {
 lab=OUT}
 N -950 -430 -950 -400 {
 lab=#net5}
-N -1250 -60 -1220 -60 {
+N -1200 -20 -1170 -20 {
 lab=#net6}
-N -1880 -100 -1550 -100 {
+N -1830 -60 -1500 -60 {
 lab=D0}
-N -1710 -40 -1550 -40 {
+N -1660 0 -1500 0 {
 lab=D1}
-N -1710 -40 -1710 70 {
+N -1660 0 -1660 110 {
 lab=D1}
-N -1770 -60 -1550 -60 {
+N -1720 -20 -1500 -20 {
 lab=D3}
-N -1770 -60 -1770 10 {
+N -1720 -20 -1720 50 {
 lab=D3}
-N -1820 -80 -1550 -80 {
+N -1770 -40 -1500 -40 {
 lab=D2}
-N -1820 -80 -1820 -40 {
+N -1770 -40 -1770 0 {
 lab=D2}
-N -1220 -50 -1220 10 {
+N -1170 -10 -1170 50 {
 lab=#net6}
-N -1220 70 -1220 100 {
+N -1170 110 -1170 140 {
 lab=#net7}
-N -1220 -60 -1220 -50 {
+N -1170 -20 -1170 -10 {
 lab=#net6}
-N -1180 -40 -1180 -10 {
+N -1130 0 -1130 30 {
 lab=#net8}
-N -1250 -40 -1180 -40 {
+N -1200 0 -1130 0 {
 lab=#net8}
-N -1250 -100 -1130 -100 {
+N -1200 -60 -1080 -60 {
 lab=#net9}
-N -1250 -80 -1050 -80 {
+N -1200 -40 -1000 -40 {
 lab=#net10}
-N -1130 -100 -1130 100 {
+N -1080 -60 -1080 140 {
 lab=#net9}
-N -1050 -80 -1020 -80 {
+N -1000 -40 -970 -40 {
 lab=#net10}
-N -960 -80 -930 -80 {
-lab=OUT_parax}
-N -1040 -80 -1040 -50 {
+N -910 -40 -880 -40 {
+lab=OUT}
+N -990 -40 -990 -10 {
 lab=#net10}
 C {devices/vsource.sym} -1040 -220 0 0 {name=Vref value=1.8 savecurrent=false}
 C {devices/vsource.sym} -1790 -420 0 0 {name=V0 value="PULSE(1.8 0 1n 100p 100p 10u 20u)" savecurrent=false}
@@ -223,38 +223,38 @@ value=5p
 footprint=1206
 device="ceramic capacitor"}
 C {devices/gnd.sym} -950 -340 0 0 {name=l8 lab=GND}
-C {devices/vsource.sym} -1130 130 0 0 {name=Vref3 value=1.8 savecurrent=false}
-C {devices/vsource.sym} -1880 -70 0 0 {name=V2 value="PULSE(1.8 0 1n 100p 100p 10u 20u)" savecurrent=false}
-C {devices/vsource.sym} -1820 -10 0 0 {name=V5 value="PULSE(1.8 0 1n 100p 100p 40u 80u)" savecurrent=false}
-C {devices/vsource.sym} -1770 40 0 0 {name=V6 value="PULSE(1.8 0 1n 100p 100p 80u 160u)" savecurrent=false}
-C {devices/vsource.sym} -1710 100 0 0 {name=V7 value="PULSE(1.8 0 1n 100p 100p 20u 40u)" savecurrent=false}
-C {devices/gnd.sym} -1880 -40 0 0 {name=l9 lab=GND}
-C {devices/gnd.sym} -1820 20 0 0 {name=l10 lab=GND}
-C {devices/gnd.sym} -1710 130 0 0 {name=l11 lab=GND}
-C {devices/gnd.sym} -1130 160 0 0 {name=l12 lab=GND}
-C {devices/opin.sym} -930 -80 0 0 {name=p4 lab=OUT_parax}
-C {devices/lab_wire.sym} -1660 -100 0 0 {name=p7 sig_type=std_logic lab=D0}
-C {devices/lab_wire.sym} -1630 -80 0 0 {name=p8 sig_type=std_logic lab=D2}
-C {devices/lab_wire.sym} -1600 -60 0 0 {name=p9 sig_type=std_logic lab=D3}
-C {devices/lab_wire.sym} -1570 -40 0 0 {name=p10 sig_type=std_logic lab=D1}
-C {devices/vsource.sym} -1220 130 0 0 {name=Vref4 value=1.8 savecurrent=false}
-C {devices/gnd.sym} -1220 160 0 0 {name=l13 lab=GND}
-C {DAC.sym} -1400 -70 0 0 {name=x2
-schematic=DAC_parax.sim
-spice_sym_def="tcleval(.include [file normalize simulation/DAC_parax.spice])"
-tclcommand="textwindow [file normalize simulation/DAC_parax.spice]"}
-C {devices/gnd.sym} -1770 70 0 0 {name=l14 lab=GND}
-C {devices/ammeter.sym} -1220 40 2 0 {name=Vmeas1 savecurrent=true}
-C {devices/vsource.sym} -1180 20 0 0 {name=Vref5 value=0 savecurrent=false}
-C {devices/gnd.sym} -1180 50 0 0 {name=l15 lab=GND}
-C {devices/res.sym} -990 -80 1 0 {name=R2
+C {devices/vsource.sym} -1080 170 0 0 {name=Vref3 value=1.8 savecurrent=false}
+C {devices/vsource.sym} -1830 -30 0 0 {name=V2 value="PULSE(1.8 0 1n 100p 100p 10u 20u)" savecurrent=false}
+C {devices/vsource.sym} -1770 30 0 0 {name=V5 value="PULSE(1.8 0 1n 100p 100p 40u 80u)" savecurrent=false}
+C {devices/vsource.sym} -1720 80 0 0 {name=V6 value="PULSE(1.8 0 1n 100p 100p 80u 160u)" savecurrent=false}
+C {devices/vsource.sym} -1660 140 0 0 {name=V7 value="PULSE(1.8 0 1n 100p 100p 20u 40u)" savecurrent=false}
+C {devices/gnd.sym} -1830 0 0 0 {name=l9 lab=GND}
+C {devices/gnd.sym} -1770 60 0 0 {name=l10 lab=GND}
+C {devices/gnd.sym} -1660 170 0 0 {name=l11 lab=GND}
+C {devices/gnd.sym} -1080 200 0 0 {name=l12 lab=GND}
+C {devices/opin.sym} -880 -40 0 0 {name=p4 lab=OUT}
+C {devices/lab_wire.sym} -1610 -60 0 0 {name=p7 sig_type=std_logic lab=D0}
+C {devices/lab_wire.sym} -1580 -40 0 0 {name=p8 sig_type=std_logic lab=D2}
+C {devices/lab_wire.sym} -1550 -20 0 0 {name=p9 sig_type=std_logic lab=D3}
+C {devices/lab_wire.sym} -1520 0 0 0 {name=p10 sig_type=std_logic lab=D1}
+C {devices/vsource.sym} -1170 170 0 0 {name=Vref4 value=1.8 savecurrent=false}
+C {devices/gnd.sym} -1170 200 0 0 {name=l13 lab=GND}
+C {DAC.sym} -1350 -30 0 0 {name=x2
+schematic=tt_um_DAC-mainDL_parax.sim
+spice_sym_def="tcleval(.incude [file normalize ../mag/tt_um_DAC-mainDL.sim.spice])"
+tclcommand="textwindow [file normalize ../mag/tt_um_DAC-mainDL.sim.spice]"}
+C {devices/gnd.sym} -1720 110 0 0 {name=l14 lab=GND}
+C {devices/ammeter.sym} -1170 80 2 0 {name=Vmeas1 savecurrent=true}
+C {devices/vsource.sym} -1130 60 0 0 {name=Vref5 value=0 savecurrent=false}
+C {devices/gnd.sym} -1130 90 0 0 {name=l15 lab=GND}
+C {devices/res.sym} -940 -40 1 0 {name=R2
 value=500
 footprint=1206
 device=resistor
 m=1}
-C {devices/capa.sym} -1040 -20 0 0 {name=C2
+C {devices/capa.sym} -990 20 0 0 {name=C2
 m=1
 value=5p
 footprint=1206
 device="ceramic capacitor"}
-C {devices/gnd.sym} -1040 10 0 0 {name=l16 lab=GND}
+C {devices/gnd.sym} -990 50 0 0 {name=l16 lab=GND}
