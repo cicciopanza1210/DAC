@@ -1,9 +1,9 @@
 # Tiny Tapeout project information
 project:
-  title:        "tt_um_DAC-mainDL"      # Project title
+  title:        "tt_um_DAC1"      # Project title
   author:       "cicciopanza&lorij"      # Your name
-  discord:      ""      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
-  description:  ""      # One line description of what your project does
+  discord:      "dac"      # Your discord username, for communication and automatically assigning you a Tapeout role (optional)
+  description:  "dac4bit"      # One line description of what your project does
   language:     "Analog" # other examples include Verilog, Amaranth, VHDL, etc
   clock_hz:     0       # Clock frequency in Hz (or 0 if not applicable)
 
